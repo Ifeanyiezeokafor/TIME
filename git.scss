@@ -1,11 +1,13 @@
 .outter-circle{
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     background-color: green;
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    position: relative
+    position: relative;
+    padding: 0px;
+    margin: 0px;
 }
 .inner-circle{
     height: 200px;
@@ -16,7 +18,54 @@
 }
 span{
     position: absolute;
+    margin: 0px;
+    padding: 0px;
+}
+.twelve{
+    top: 35px;
+    left: 46%;
+}
+.six{
+    bottom: 10%;
+    left: 50%;
+}
+.three{
+    bottom: 50%;
+    right: 14%;
+}
+.nine{
+    bottom: 50%;
+    left: 14%;
 }
 .one{
-    top: 0px;
+    bottom: 77%;
+    right: 30%;
+}
+.two{
+    bottom: 66%;
+    right: 19%;
+}
+.four{
+    bottom: 35%;
+    right: 16%;
+}
+.five{
+    bottom: 18%;
+    right: 28%;
+}
+.seven{
+    bottom: 18%;
+    left: 28%;
+}
+.eight{
+    bottom: 35%;
+    left: 16%;
+}
+.ten{
+    bottom: 66%;
+    left: 17%;
+}
+.eleven{
+    bottom: 77%;
+    left: 28%;
 }
