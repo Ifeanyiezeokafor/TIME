@@ -35,65 +35,65 @@ span{
     z-index: 2;
 }
 .twelve{
-    top: 35px;
-    left: 46%;
+    top: 25px;
+    left: 47%;
 }
 .six{
-    bottom: 10%;
-    left: 50%;
+    bottom: 9%;
+    left: 49%;
 }
 .three{
-    bottom: 50%;
-    right: 14%;
+    bottom: 46%;
+    right: 10%;
 }
 .nine{
-    bottom: 50%;
-    left: 14%;
+    bottom: 46%;
+    left: 10%;
 }
 .one{
-    bottom: 77%;
+    bottom: 78%;
     right: 30%;
 }
 .two{
-    bottom: 66%;
-    right: 19%;
-}
-.four{
-    bottom: 35%;
+    bottom: 65%;
     right: 16%;
 }
+.four{
+    bottom: 27%;
+    right: 15%;
+}
 .five{
-    bottom: 18%;
-    right: 28%;
+    bottom: 14%;
+    right: 29%;
 }
 .seven{
-    bottom: 18%;
-    left: 28%;
+    bottom: 14%;
+    left: 29%;
 }
 .eight{
-    bottom: 35%;
-    left: 16%;
+    bottom: 27%;
+    left: 15%;
 }
 .ten{
-    bottom: 66%;
-    left: 17%;
+    bottom: 65%;
+    left: 15%;
 }
 .eleven{
-    bottom: 77%;
+    bottom: 78%;
     left: 28%;
 }
 .l-hand{
     height: 3px;
-    width: 100px;
+    width: 150px;
     background: linear-gradient(90deg, white 50%, gold 50%);
     border: none;
     align-self: center;
     position: fixed;
-    animation: cloc 2s forwards;
+    //transform: rotateZ(60deg);
 }
 .s-hand{
     height: 3px;
-    width: 60px;
+    width: 100px;
     background: linear-gradient(90deg, rgba(0, 0, 0, 0) 50%, gold 50%);
     border: none;
     align-self: center;
@@ -110,15 +110,7 @@ span{
     transform: rotateZ(0deg);
     }
     100%{
-    transform: rotateZ(216deg);
-    }
-}
-@keyframes cloc{
-    0%{
     transform: rotateZ(0deg);
-    }
-    100%{
-    transform: rotateZ(50deg);
     }
 }
 .inner-circle2{
