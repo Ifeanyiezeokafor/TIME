@@ -113,7 +113,6 @@ span {
   background: linear-gradient(90deg, rgba(0, 0, 0, 0) 50%, gold 50%);
   border: none;
   align-self: center;
-  animation: clock 2s forwards;
   z-index: 3;
 }
 
@@ -123,14 +122,6 @@ span {
   z-index: 10;
 }
 
-@keyframes clock {
-  0% {
-    transform: rotateZ(0deg);
-  }
-  100% {
-    transform: rotateZ(0deg);
-  }
-}
 .inner-circle2 {
   height: 200px;
   width: 200px;
